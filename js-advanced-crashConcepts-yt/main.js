@@ -1,7 +1,7 @@
-const nestedFxnScope = require('./nestedFxnScope')
+const nestedFxnScope = require('./topics/nestedFxnScope')
 nestedFxnScope()
 
-const closures = require('./closures')
+const closures = require('./topics/closures')
 closures()
 
 const currying = require('./currying')

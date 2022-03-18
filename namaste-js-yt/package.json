@@ -1,0 +1,12 @@
+{
+  "name": "namaste-js-yt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "keywords": ["javascript", "concepts"],
+  "author": "ashish karki",
+  "license": "ISC"
+}

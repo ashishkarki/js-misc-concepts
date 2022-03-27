@@ -6,7 +6,8 @@
 /** Function vs Block vs Lexical scoping:
  * - Function scope is created when you define a variable using the var keyword.
  * - Block scope is created when you define a variable using the let or const keyword and a block is represented by curly braces {}. This is what a statically typed language like Java does.
- * - Lexical scope is basically the idea (in JS) that a function has access to its own variables as well as the variables of its parent (and their parent) function/s. (BUT the opposite is not true). Both functionally and block scoped variables following this idea of lexical scoping.
+ * - Lexical scope is basically the idea (in JS) that a function has access to its own variables as well as the variables of its parent (and their parent) function/s. (BUT the opposite is not true).
+ * - Both functionally and block scoped variables following this idea of lexical scoping.
  */
 /**
  * SCOPE CHAIN: is the order in which the variables are searched for a given variable name from the top of the stack to the bottom and correspondingly from the innermost scope to the outer-most/parent scope

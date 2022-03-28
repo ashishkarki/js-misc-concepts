@@ -4,6 +4,7 @@ import { scopeNLexicalEnv } from "./topics/scopeNLexicalEnv.js";
 import { letConstNTemporal } from "./topics/letConstNTemporal.js";
 import { blockScopeNShadow } from "./topics/blockScopeNShadow.js";
 import { closures, closuresUsage } from "./topics/closures.js";
+import { setTimeout } from "./topics/settimeout.js";
 
 // console.log("***************************");
 // // hoisting()
@@ -30,9 +31,13 @@ import { closures, closuresUsage } from "./topics/closures.js";
 // console.log("***************************");
 // console.log("***************************");
 
+// console.log("***************************");
+// closures();
+// console.log("***************************");
+// closuresUsage();
+// console.log("***************************");
+// console.log("***************************");
+
 console.log("***************************");
-closures();
-console.log("***************************");
-closuresUsage();
-console.log("***************************");
+setTimeout();
 console.log("***************************");

@@ -5,6 +5,7 @@ import { letConstNTemporal } from "./topics/letConstNTemporal.js";
 import { blockScopeNShadow } from "./topics/blockScopeNShadow.js";
 import { closures, closuresUsage } from "./topics/closures.js";
 import { setTimeout } from "./topics/settimeout.js";
+import { firstClassFxns } from "./topics/firstclassfxns.js";
 
 // console.log("***************************");
 // // hoisting()
@@ -38,6 +39,10 @@ import { setTimeout } from "./topics/settimeout.js";
 // console.log("***************************");
 // console.log("***************************");
 
+// console.log("***************************");
+// setTimeout();
+// console.log("***************************");
+
 console.log("***************************");
-setTimeout();
+firstClassFxns();
 console.log("***************************");

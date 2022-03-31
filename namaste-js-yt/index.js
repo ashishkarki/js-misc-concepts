@@ -6,6 +6,7 @@ import { blockScopeNShadow } from "./topics/blockScopeNShadow.js";
 import { closures, closuresUsage } from "./topics/closures.js";
 import { setTimeout } from "./topics/settimeout.js";
 import { firstClassFxns } from "./topics/firstclassfxns.js";
+import { callbackEventListeners } from "./topics/callbackEventListeners.js";
 
 // console.log("***************************");
 // // hoisting()
@@ -43,6 +44,10 @@ import { firstClassFxns } from "./topics/firstclassfxns.js";
 // setTimeout();
 // console.log("***************************");
 
+// console.log("***************************");
+// firstClassFxns();
+// console.log("***************************");
+
 console.log("***************************");
-firstClassFxns();
+callbackEventListeners();
 console.log("***************************");

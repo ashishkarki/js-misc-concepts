@@ -100,5 +100,6 @@ export const firstClassFxns = () => {
    * reference: https://blog.logrocket.com/anomalies-in-javascript-arrow-functions/#:~:text=Arrow%20functions%20can%20never%20be,exist%20for%20an%20arrow%20function.
    * Arrow functions can never be used as constructor functions. Hence, they can never be invoked with the new keyword.
    * As such, a prototype property does not exist for an arrow function. These are very important differences between arrow functions and regular functions.
+   * Also, Unlike regular functions, arrow functions do not allow duplicate parameters, whether in strict or non-strict mode. Duplicate parameters will cause a Syntax Error to be thrown.
    */
 };

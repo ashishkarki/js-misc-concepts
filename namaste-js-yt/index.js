@@ -7,6 +7,7 @@ import { closures, closuresUsage } from "./topics/closures.js";
 import { setTimeout } from "./topics/settimeout.js";
 import { firstClassFxns } from "./topics/firstclassfxns.js";
 import { callbackEventListeners } from "./topics/callbackEventListeners.js";
+import { jsV8Engine } from "./topics/jsV8Engine.js";
 
 // console.log("***************************");
 // // hoisting()
@@ -48,6 +49,10 @@ import { callbackEventListeners } from "./topics/callbackEventListeners.js";
 // firstClassFxns();
 // console.log("***************************");
 
+// console.log("***************************");
+// callbackEventListeners();
+// console.log("***************************");
+
 console.log("***************************");
-callbackEventListeners();
+jsV8Engine();
 console.log("***************************");

@@ -1,0 +1,17 @@
+{
+  "name": "design-patterns-with",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "test": "jest --watchAll"
+  },
+  "keywords": [
+    "design-patterns",
+    "javascript",
+    "solid design principles"
+  ],
+  "author": "",
+  "license": "ISC"
+}

@@ -67,3 +67,11 @@
     console.log(filteredItem.toString());
   }
 })();
+
+// Interface Segregation Principle
+(() => {
+  console.log(`SOLID: interface segregation principle`);
+
+  const is = require("./topics/interfaceSegregation");
+  is();
+})();

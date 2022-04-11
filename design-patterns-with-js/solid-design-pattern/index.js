@@ -1,3 +1,8 @@
+/**
+ * Some other good references
+ * 1. https://blog.bitsrc.io/solid-principles-in-typescript-153e6923ffdb - SOLID using TyepeScript
+ */
+
 // Single Responsibility Principle
 (() => {
   console.log(`SOLID: single responsibility principle`);

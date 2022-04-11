@@ -3,6 +3,8 @@
  * => You should be able to extend the functionality of an object without changing its structure.
  * => A class should be open for extension, but closed for modification.
  */
+
+/* Creating a constant object, and freezing it. */
 const Colors = Object.freeze({
   RED: "red",
   GREEN: "green",
@@ -15,6 +17,11 @@ const Sizes = Object.freeze({
   LARGE: "large",
 });
 
+/* "A product has a name, color, and size."
+
+The class has three private fields: #name, #color, and #size. The constructor initializes these
+fields. The getters color and size return the values of the private fields. The toString method
+returns a string representation of the product */
 class Product {
   #name = "";
   #color = "";

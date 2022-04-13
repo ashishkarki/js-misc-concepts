@@ -9,13 +9,35 @@
 
         <!-- <script src="./scripts/script1.js"></script> -->
         <!-- <script src="./scripts/script2.js"></script> -->
-        <script src="./scripts/script3-callbacks.js"></script>
+        <!-- <script src="./scripts/script3-callbacks.js"></script> -->
+        <script src="./topics/eventBubblingCapturing.js"></script>
+
+        <style>
+            div {
+                min-width: 100px;
+                min-height: 100px;
+                padding: 2rem;
+                border: 2px solid black;
+            }
+        </style>
     </head>
 
     <body>
         <h2>Please check the console of your browser..</h2>
 
         <button id="btn">Click and debug</button>
+
+        <h3>Stuff about event bubbling and capturing</h3>
+
+        <div id="granny" style="background-color: blueviolet;">
+            Granny element
+            <div id="parent" style="background-color: cadetblue;">
+                Parent element
+                <div id="child" style="background-color: cyan;">
+                    Child element
+                </div>
+            </div>
+        </div>
     </body>
 
 </html>
